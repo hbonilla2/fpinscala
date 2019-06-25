@@ -64,4 +64,8 @@ object Examples {
       sum(l) + sum(r) // Recursively sum both halves and add the results together.
     }
 
+  def main(args: Array[String]): Unit = {
+    val ints = IndexedSeq(1, 2, 3, 4)
+    println(sum(ints))
+  }
 }
